@@ -27,7 +27,7 @@ To get started with this project:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd test-automation-framework
+   cd AutomatedTesting
    ```
 3. Install Dependencied with Maven:
    ```bash
