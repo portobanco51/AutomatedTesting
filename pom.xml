@@ -1,10 +1,11 @@
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wizard710.pages</groupId>
-  <artifactId>TesingFramework</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-   <build>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wizard710.pages</groupId>
+	<artifactId>TesingFramework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -30,8 +31,16 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-  
-  <dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub portobanco51 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/portobanco51/AutomatedTesting</url>
+		</repository>
+	</distributionManagement>
+
+	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -61,6 +70,5 @@
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
 		</dependency>
-
 	</dependencies>
 </project>
